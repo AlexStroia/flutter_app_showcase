@@ -4,6 +4,7 @@ import 'package:flutter_demo/core/domain/stores/user_store.dart';
 import 'package:flutter_demo/core/utils/current_time_provider.dart';
 import 'package:flutter_demo/core/utils/debouncer.dart';
 import 'package:flutter_demo/core/utils/periodic_task_executor.dart';
+import 'package:flutter_demo/features/auth/login/login_presenter.dart';
 //DO-NOT-REMOVE IMPORTS_MOCK_DEFINITIONS
 
 import 'package:flutter_demo/navigation/app_navigator.dart';
@@ -31,3 +32,5 @@ class MockDebouncer extends Mock implements Debouncer {}
 class MockPeriodicTaskExecutor extends Mock implements PeriodicTaskExecutor {}
 
 class MockCurrentTimeProvider extends Mock implements CurrentTimeProvider {}
+
+class MockLoginPresenter extends Mock implements LoginPresenter {}
